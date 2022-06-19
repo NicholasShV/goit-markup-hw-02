@@ -8,3 +8,8 @@ body {
     background-color: white;
     color: var(--primary-text-color);
 }
+
+link:hover
+link:focus {
+
+}
