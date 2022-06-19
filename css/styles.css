@@ -9,6 +9,15 @@ body {
     color: var(--primary-text-color);
 }
     
+/* header */
+
+.nav-logo {
+    color: black;    
+}
+
+.nav-logo-web {
+    color: var(--accent-color);
+}
 
 
 .site-nav .link:hover,
