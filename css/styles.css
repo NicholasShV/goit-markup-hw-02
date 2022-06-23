@@ -2,35 +2,221 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --fff-color: #FFFFFF;
+    --btn-color: #F5F4FA;
+    --footer-color: #2F303A;
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+    --title-size: 36px;
+    --text-size: 14px;
+    --btn-size: 16px;
+    --portfolio-size: 18px;
 }
 
 body {
-    background-color: white;
+    background-color: var(--fff-color);
     color: var(--primary-text-color);
-}
-    
+    font-weight: 700;   
+   }
+
 /* header */
 
+.header {
+    width: 1600;
+    height: 80;       
+    background-color: var(--fff-color);
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    color: black; 
+    text-decoration: none;
+    font-family: var(--logo-font);   
+    font-size: 26px;    
+}
+
 .nav-logo {
-    color: black;    
+    color: var(--accent-color);    
 }
 
-.nav-logo-web {
-    color: var(--accent-color);
+.site-nav {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    font-weight: 500;    
 }
 
+.link-navigation {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    font-weight: 500;    
+}
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link-contact {
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
+
+.site-nav .link-navigation:hover,
+.site-nav .link-navigation:focus {
    color:  var(--accent-color);
 }
 
-.list-contact .link:focus,
-.list-contact .link:hover {
+.list-contact .link-contact:focus,
+.list-contact .link-contact:hover {
     color: var(--accent-color);
 }
 
+.site-nav .link-navigation.current{
+    color: var(--accent-color);   
+}
 
-.site-nav .link.current{
-    color: var(--accent-color);    
+/* first section */
+
+.service {
+    background-color: var(--footer-color);
+}
+
+.service-title {
+    text-transform: uppercase;
+    color: var(--fff-color);
+    font-family: var(--main-font);
+    font-size: 44px;
+    font-weight: 900;
+    width: 696px;
+}
+
+.service-btn {
+    font-family: var(--main-font);
+    font-size: var(--btn-size);
+    color: var(--fff-color);
+    background-color: var(--accent-color);    
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+}
+
+/* second section */
+
+.work-title-list {
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    color: var(--title-text-color); 
+    text-transform: uppercase;
+}
+
+.work-text {
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    font-weight: 400;
+    width: 270px;
+}
+
+.work-title {
+    font-family: var(--main-font);
+    font-size: var(--title-size); 
+    color: var(--title-text-color);   
+}
+
+/* third section */
+
+.team {
+    background-color: var(--btn-color);
+}
+
+.team-title {
+    font-family: var(--main-font);
+    font-size: var(--title-size);
+    color: var(--title-text-color);
+
+}
+
+.team-list {
+    list-style: none;
+    text-decoration: none;
+    background-color: var(--fff-color);
+    width: 270px;
+}
+
+.team-title-list {
+    font-family: var(--main-font);
+    font-size: var(--btn-size);
+    font-weight: 500;  
+    color: var(--title-text-color);
+}
+
+.team-text {
+    font-family: var(--main-font);
+    font-size: var(--btn-size);
+    font-weight: 400;
+}
+
+/* portfolio */
+
+.portfolio-btn {
+    font-family: var(--main-font);
+    font-size: var(--btn-size);
+    font-weight: 500;
+    background-color: var(--btn-color);
+    color:  var(--title-text-color);
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* .btn-first {
+    background-color: var(--accent-color);
+    color: var(--fff-color);    
+} */
+
+.btn-active:hover,
+.btn-active:focus {
+    background-color: var(--accent-color);
+    color: var(--fff-color);
+}
+
+.portfolio-title {
+    font-family: var(--main-font);
+    font-size: var(--portfolio-size);
+    color: var(--title-text-color);
+}
+
+.portfolio-text {
+    font-family: var(--main-font);
+    font-size: var(--btn-size);
+    font-weight: 400;
+    
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer-text {
+    color: var(--fff-color);
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    color: var(--primary-text-color);
+    font-weight: 400;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+   color:  var(--accent-color);
 }
