@@ -16,15 +16,19 @@
 body {
     background-color: var(--fff-color);
     color: var(--primary-text-color);
-    font-weight: 700;   
+    font-style: normal;
+    font-size: var(--text-size);
+    letter-spacing: 0.03em;
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 16px;
    }
 
 /* header */
 
 .header {
     width: 1600;
-    height: 80;       
-    background-color: var(--fff-color);
+    height: 80;        
 }
 
 .list {
@@ -36,7 +40,10 @@ body {
     color: black; 
     text-decoration: none;
     font-family: var(--logo-font);   
-    font-size: 26px;    
+    font-size: 26px; 
+    line-height: 31px;  
+    font-weight: 700; 
+
 }
 
 .nav-logo {
@@ -45,26 +52,22 @@ body {
 
 .site-nav {
     text-decoration: none;
-    color: var(--title-text-color);
-    font-family: var(--main-font);
-    font-size: var(--text-size);
-    font-weight: 500;    
+    color: var(--title-text-color); 
+    font-weight: 500; 
+    letter-spacing: 0.02em;
 }
 
 .link-navigation {
     text-decoration: none;
     color: var(--title-text-color);
-    font-family: var(--main-font);
-    font-size: var(--text-size);
-    font-weight: 500;    
+  
 }
 
 .link-contact {
-    text-decoration: none;
-    font-family: var(--main-font);
-    font-size: var(--text-size);
+    text-decoration: none; 
     color: var(--primary-text-color);
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link-navigation:hover,
@@ -89,43 +92,42 @@ body {
 
 .service-title {
     text-transform: uppercase;
-    color: var(--fff-color);
-    font-family: var(--main-font);
+    color: var(--fff-color);  
     font-size: 44px;
-    font-weight: 900;
-    width: 696px;
+    font-weight: 900;    
+    line-height: 60px;
+    letter-spacing: 0.06em;
 }
 
 .service-btn {
-    font-family: var(--main-font);
     font-size: var(--btn-size);
     color: var(--fff-color);
     background-color: var(--accent-color);    
     border: none;
     padding: 10px 32px;
     border-radius: 4px;
+    line-height: 30px;
+    letter-spacing: 0.06em;    
 }
 
 /* second section */
 
 .work-title-list {
-    font-family: var(--main-font);
-    font-size: var(--text-size);
     color: var(--title-text-color); 
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .work-text {
-    font-family: var(--main-font);
-    font-size: var(--text-size);
-    font-weight: 400;
-    width: 270px;
+    line-height: 24px;    
+    width: 270px;    
 }
 
 .work-title {
-    font-family: var(--main-font);
     font-size: var(--title-size); 
-    color: var(--title-text-color);   
+    color: var(--title-text-color);
+    font-weight: 700;   
+    line-height: 42px;
 }
 
 /* third section */
@@ -135,36 +137,36 @@ body {
 }
 
 .team-title {
-    font-family: var(--main-font);
     font-size: var(--title-size);
     color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 42px;
 
 }
 
 .team-list {
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;    
     background-color: var(--fff-color);
     width: 270px;
 }
 
 .team-title-list {
-    font-family: var(--main-font);
     font-size: var(--btn-size);
     font-weight: 500;  
     color: var(--title-text-color);
+    line-height: 19px;
+
 }
 
 .team-text {
-    font-family: var(--main-font);
     font-size: var(--btn-size);
-    font-weight: 400;
+    line-height: 19px;
 }
 
 /* portfolio */
 
 .portfolio-btn {
-    font-family: var(--main-font);
     font-size: var(--btn-size);
     font-weight: 500;
     background-color: var(--btn-color);
@@ -172,29 +174,33 @@ body {
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
+    line-height: 26px;
+    letter-spacing: 0.03em;
 }
 
-/* .btn-first {
+.btn-first {
     background-color: var(--accent-color);
     color: var(--fff-color);    
-} */
+}
 
 .btn-active:hover,
 .btn-active:focus {
     background-color: var(--accent-color);
     color: var(--fff-color);
+
 }
 
 .portfolio-title {
-    font-family: var(--main-font);
     font-size: var(--portfolio-size);
     color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-    font-family: var(--main-font);
     font-size: var(--btn-size);
-    font-weight: 400;
+    line-height: 30px;
     
 }
 
@@ -206,14 +212,15 @@ body {
 
 .footer-text {
     color: var(--fff-color);
+    font-style: normal;
+    line-height: 24px;
 }
 
 .footer-link {
     text-decoration: none;
-    font-family: var(--main-font);
-    font-size: var(--text-size);
-    color: var(--primary-text-color);
-    font-weight: 400;
+    color: var(--primary-text-color); 
+    font-style: normal;
+    line-height: 24px;
 }
 
 .footer-link:hover,
